@@ -21,7 +21,7 @@ public class AllPaths {
             return;
         }
 
-        // i am considering this block in my path
+        // i am considering this block in my path (river)
         maze[r][c] = false;
 
         if (r < maze.length - 1) {
